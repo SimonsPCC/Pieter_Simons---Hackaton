@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eindopdracht van Pieter</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+    <header>
+        <div class="banner">
+
+
+            <h1>Villa Kakelbont</h1>
+        </div>
+    </header>
+
+
+
+
+    <!--begin wrapper-->
+    <div class="wrapper">
+
+        <!--begin navigatie-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://www.google.nl/">Google</a></li>
+            </ul>
+        </nav>
+        <!--einde navigatie-->
+
+        <!--main-->
+
+        <main>
+            <div class="fotomain">
+                <div class="foto-1"> <img src="/pics/villa1.jpg"></div>
+                <div class="foto-1"> <img src="/pics/blackie1.jpg"></div>
+            </div>
+
+
+
+            <div class="container">
+
+                <div class="contact">
+                    <h3> Lid worden?</h3>
+                    <p> Laat je gegevens achter en we nemen zo snel mogenlijk contact met je op.</p>
+                </div>
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Je naam</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Voor- en achternaam..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="email" name="mail" id="email" placeholder=" uw e-mail adres..">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Land</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option value="Belgie">Belgie</option>
+                                <option value="Nederland">Nederland</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Opmerkingen</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Vragen of opmerkingen..."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Versturen">
+                    </div>
+                </form>
+            </div>
+
+
+        </main>
+        <!--einde wrapper-->
+    </div>
+    <!--footer-->
+
+
+    <footer>
+        <div class="bottom">
+            <h5> Eindopdracht HTML/CSS Pieter</h5>
+        </div>
+        <div>
+            <h5> <a href="https://www.wincacademy.nl/">Winc Academy</a></h5>
+        </div>
+    </footer>
+
+</body>
+
+</html>

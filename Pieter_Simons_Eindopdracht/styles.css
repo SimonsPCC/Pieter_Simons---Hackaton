@@ -1,0 +1,252 @@
+
+
+
+* {margin: 0;
+box-sizing: border-box;}
+
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgb(212, 212, 212);
+	box-sizing: border-box;
+	font-size: 1em;
+    
+}
+
+.wrapper {margin: 0px 10px;
+	background-color: rgb(212, 212, 212);
+box-sizing: border-box;}
+
+
+
+.banner {
+	background-image: url(pics/hen-2262102_60.png);
+background-repeat: no-repeat;
+	height: 150px;
+	
+	color: white;
+	background-color: darkslateblue;
+padding: 30px 0px;
+border-bottom: solid 10px black;
+border-top: solid 10px black;
+margin: 0px 0px 10px 0px;
+}
+
+h1 { font-size: 1.5em; text-align: right; 
+margin-right: 20px;}
+
+/* nav styling */
+
+nav ul { list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	margin: auto;
+	background-color: #b69bff;
+	border: 1px solid black;
+
+
+}
+
+	nav li a { display: block;
+		color: #000;
+		padding: 8px 16px;
+		text-decoration: none;
+		text-align: center;
+		border-bottom: 1px solid black;
+}
+
+li:last-child {border-bottom: none;}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+nav {margin-bottom: 25px; }
+/* einde nav styling */
+
+
+/*main*/
+
+/* image autp */
+img {  max-width: 100%;
+	height: auto;
+}
+iframe { max-width: 100%;
+
+margin-bottom: 10px;}
+
+
+
+
+/* parent */
+.parent {display: flex;
+flex-direction: column;}
+
+.parent div {padding: 10px 10px 20px 10px;
+	margin-bottom: 70px;
+
+background-color: white;
+text-decoration: none;}
+
+.parent div:last-child {margin-bottom: 20px;}
+
+/* videobox*/
+
+.videobox { padding: 10px 10px 20px 10px;
+	margin-bottom: 20px;
+text-align: center;
+background-color: #ffffff;}
+
+.bottom { height: 100px;
+background-color: darkslateblue;
+background-image: url(pics/hen-2262102_60.png);
+
+background-repeat: no-repeat;
+color:white;
+text-align: right;
+}
+
+.bottom h5 { padding: 10px;}
+
+aside { margin-bottom: 30px;
+	padding: 10px 10px 10px 10px;
+background-color: white;
+}
+
+aside div {padding: 10px;}
+
+
+aside li {list-style: none;}
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  .contact { margin-bottom: 10px;
+	padding: 10px 10px 20px 10px;
+background-color: white;
+}
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+
+  input[type=email] {width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical; }
+  
+  label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	max-width: 100%;
+  }
+  
+  .col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+  }
+  
+  .col-75 {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .col-25, .col-75, input[type=submit] {
+	width: 100%;
+	margin-top: 0;
+  }
+
+
+  .foto-1 { margin-bottom: 20px;}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (min-width: 600px) {
+	.col-25, .col-75, input[type=submit] {
+	 
+	  margin-top: 0;
+	}
+
+	.col-25 {
+		float: left;
+		width: 25%;
+		margin-top: 6px;
+	  }
+	  
+	  .col-75 {
+		float: left;
+		width: 75%;
+		margin-top: 6px;
+	  }
+
+
+	  nav ul { 
+		display: flex;
+		justify-content: flex-start;  
+		list-style-type: none;
+		
+		padding: 0px;
+		width: 100%;
+		margin: auto;
+		background-color: #b69bff;
+		border: 1px solid black;
+	
+	
+	}
+
+	.wrapper {max-width: 1000px;
+		margin: auto;
+		background-color: rgb(212, 212, 212);
+	box-sizing: border-box;}
+
+.parent { display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.parent div{ border: 1px black solid;
+width: 49%;
+margin-bottom: 20px;}
+
+.fotomain { display: flex;
+justify-content: space-between;}
+
+.fotomain div {width: 49%;}
+
+  }
